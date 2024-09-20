@@ -1,0 +1,530 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Capabilities.V1.xml">
+        <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Communication.xml">
+        <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="/sap/opu/odata/sap/ZSB_REPORTE_REPARACIONES/$metadata">
+        <edmx:Include Namespace="cds_zsd_reporte_reparaciones"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="local">
+            <Annotations Target="cds_zsd_reporte_reparaciones.cds_zsd_reporte_reparaciones_Entities/ReporteReparaciones" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+                <Annotation Term="Capabilities.FilterRestrictions">
+                    <Record Type="Capabilities.FilterRestrictionsType">
+                        <PropertyValue Property="NonFilterableProperties">
+                            <Collection>
+                                <PropertyPath>referenciaCliente2</PropertyPath>
+                                <PropertyPath>pedidoCliente</PropertyPath>
+                                <PropertyPath>fechaNotificacion</PropertyPath>
+                                <PropertyPath>destinatario</PropertyPath>
+                                <PropertyPath>notaEntrega</PropertyPath>
+                                <PropertyPath>solicitante</PropertyPath>
+                                <PropertyPath>referenciaCliente1</PropertyPath>
+                                <PropertyPath>descripcionMaterial</PropertyPath>
+                                <PropertyPath>valorNeto</PropertyPath>
+                                <PropertyPath>moneda</PropertyPath>
+                                <PropertyPath>numeroPersona</PropertyPath>
+                                <PropertyPath>prioridad</PropertyPath>
+                                <PropertyPath>estadoStock</PropertyPath>
+                                <PropertyPath>fechaCreacionPedido</PropertyPath>
+                                <PropertyPath>descripcionOrdenServicio</PropertyPath>
+                                <PropertyPath>ordenesVenta</PropertyPath>
+                                <PropertyPath>fechaInicioReal</PropertyPath>
+                                <PropertyPath>listadoTareas</PropertyPath>
+                                <PropertyPath>envio</PropertyPath>
+                                <PropertyPath>descripcionListaTareas</PropertyPath>
+                                <PropertyPath>fechaEntregaEstimada</PropertyPath>
+                                <PropertyPath>descripcionUnidadTren</PropertyPath>
+                                <PropertyPath>productoServicio</PropertyPath>
+                                <PropertyPath>averiaCliente</PropertyPath>
+                                <PropertyPath>contrato</PropertyPath>
+                                <PropertyPath>estadoFacturacion</PropertyPath>
+                                <PropertyPath>equipo</PropertyPath>
+                                <PropertyPath>informeTecnicoInterno</PropertyPath>
+                                <PropertyPath>informeTecnicoInterno</PropertyPath>
+                                <PropertyPath>informeTecnicoCliente</PropertyPath>
+                                <PropertyPath>informeTecnicoCliente</PropertyPath>
+                                <PropertyPath>informeFluorado</PropertyPath>
+                                <PropertyPath>fechaInicioGarantia</PropertyPath>
+                                <PropertyPath>fechaFinGarantia</PropertyPath>
+                                <PropertyPath>grupoPrecios</PropertyPath>
+                                <PropertyPath>fechaFactura</PropertyPath>
+                                <PropertyPath>costeMaterial</PropertyPath>
+                                <PropertyPath>monedaCosteMaterial</PropertyPath>
+                                <PropertyPath>horasTrabajo</PropertyPath>
+                                <PropertyPath>precioCatalogo</PropertyPath>
+                                <PropertyPath>referenceinhouserepair</PropertyPath>
+                                <PropertyPath>referenceinhouserepairitem</PropertyPath>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="Capabilities.SortRestrictions">
+                    <Record>
+                        <PropertyValue Property="NonSortableProperties">
+                            <Collection>
+                                <PropertyPath>OrdenReparacion</PropertyPath>
+                                <PropertyPath>referenciaCliente2</PropertyPath>
+                                <PropertyPath>claseActividad</PropertyPath>
+                                <PropertyPath>pedidoCliente</PropertyPath>
+                                <PropertyPath>fechaNotificacion</PropertyPath>
+                                <PropertyPath>destinatario</PropertyPath>
+                                <PropertyPath>notaEntrega</PropertyPath>
+                                <PropertyPath>fechaUltimaModificacion</PropertyPath>
+                                <PropertyPath>solicitante</PropertyPath>
+                                <PropertyPath>material</PropertyPath>
+                                <PropertyPath>referenciaCliente1</PropertyPath>
+                                <PropertyPath>descripcionMaterial</PropertyPath>
+                                <PropertyPath>numeroSerie</PropertyPath>
+                                <PropertyPath>valorNeto</PropertyPath>
+                                <PropertyPath>moneda</PropertyPath>
+                                <PropertyPath>ubicacion</PropertyPath>
+                                <PropertyPath>numeroPersona</PropertyPath>
+                                <PropertyPath>prioridad</PropertyPath>
+                                <PropertyPath>estadoOrdenServicio</PropertyPath>
+                                <PropertyPath>estadoStock</PropertyPath>
+                                <PropertyPath>fechaCreacionPedido</PropertyPath>
+                                <PropertyPath>descripcionOrdenServicio</PropertyPath>
+                                <PropertyPath>planta</PropertyPath>
+                                <PropertyPath>unidadTren</PropertyPath>
+                                <PropertyPath>fechaCierreTecnico</PropertyPath>
+                                <PropertyPath>ordenesVenta</PropertyPath>
+                                <PropertyPath>fechaReferenciaOrden</PropertyPath>
+                                <PropertyPath>fechaFinalizacionProg</PropertyPath>
+                                <PropertyPath>fechaInicioProg</PropertyPath>
+                                <PropertyPath>fechaInicioReal</PropertyPath>
+                                <PropertyPath>listadoTareas</PropertyPath>
+                                <PropertyPath>codigoCliente</PropertyPath>
+                                <PropertyPath>envio</PropertyPath>
+                                <PropertyPath>descripcionListaTareas</PropertyPath>
+                                <PropertyPath>fechaEntregaEstimada</PropertyPath>
+                                <PropertyPath>descripcionUnidadTren</PropertyPath>
+                                <PropertyPath>productoServicio</PropertyPath>
+                                <PropertyPath>averiaCliente</PropertyPath>
+                                <PropertyPath>tipoOrden</PropertyPath>
+                                <PropertyPath>contrato</PropertyPath>
+                                <PropertyPath>estadoFacturacion</PropertyPath>
+                                <PropertyPath>equipo</PropertyPath>
+                                <PropertyPath>informeTecnicoInterno</PropertyPath>
+                                <PropertyPath>informeTecnicoInterno</PropertyPath>
+                                <PropertyPath>informeTecnicoCliente</PropertyPath>
+                                <PropertyPath>informeTecnicoCliente</PropertyPath>
+                                <PropertyPath>informeFluorado</PropertyPath>
+                                <PropertyPath>fechaGI</PropertyPath>
+                                <PropertyPath>fechaInicioGarantia</PropertyPath>
+                                <PropertyPath>fechaFinGarantia</PropertyPath>
+                                <PropertyPath>grupoPrecios</PropertyPath>
+                                <PropertyPath>fechaFactura</PropertyPath>
+                                <PropertyPath>costeMaterial</PropertyPath>
+                                <PropertyPath>monedaCosteMaterial</PropertyPath>
+                                <PropertyPath>horasTrabajo</PropertyPath>
+                                <PropertyPath>precioCatalogo</PropertyPath>
+                                <PropertyPath>referenceinhouserepair</PropertyPath>
+                                <PropertyPath>referenceinhouserepairitem</PropertyPath>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType">
+                <Annotation Term="Common.SortOrder" >
+                    <Collection>
+                        <Record Type="Common.SortOrderType">
+                            <PropertyValue Property="Property" PropertyPath="OrdenReparacion"/>
+                            <Annotation Term="UI.Hidden"/>
+                        </Record>
+                    </Collection>
+                </Annotation>
+                <Annotation Term="UI.LineItem" >
+                    <Collection>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="OrdenReparacion" />
+                            <PropertyValue Property="Label" String="{@i18n>ordenreparacion}" />
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="referenciaCliente2"/>
+                            <PropertyValue Property="Label" String="{@i18n>refcliente2}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="claseActividad"/>
+                            <PropertyValue Property="Label" String="{@i18n>claseactividad}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="pedidoCliente"/>
+                            <PropertyValue Property="Label" String="{@i18n>pedidocliente}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaNotificacion"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechanotificacion}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="destinatario"/>
+                            <PropertyValue Property="Label" String="{@i18n>destinatario}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="notaEntrega"/>
+                            <PropertyValue Property="Label" String="{@i18n>notaDeEntrega}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaUltimaModificacion"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaDeLtimaModificacin}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="solicitante"/>
+                            <PropertyValue Property="Label" String="{@i18n>solicitante}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="material"/>
+                            <PropertyValue Property="Label" String="{@i18n>material}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="referenciaCliente1"/>
+                            <PropertyValue Property="Label" String="{@i18n>referenciaDeCliente}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="descripcionMaterial"/>
+                            <PropertyValue Property="Label" String="{@i18n>descripcinDelMaterial}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="numeroSerie"/>
+                            <PropertyValue Property="Label" String="{@i18n>nmeroDeSerie}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="valorNeto"/>
+                            <PropertyValue Property="Label" String="{@i18n>valorNeto}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="ubicacion"/>
+                            <PropertyValue Property="Label" String="{@i18n>ubicacin}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="numeroPersona"/>
+                            <PropertyValue Property="Label" String="{@i18n>nmeroDePersona}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="prioridad"/>
+                            <PropertyValue Property="Label" String="{@i18n>prioridad}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="estadoOrdenServicio"/>
+                            <PropertyValue Property="Label" String="{@i18n>estadoDeLaOrden}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="estadoStock"/>
+                            <PropertyValue Property="Label" String="{@i18n>estadoStock}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaCreacionPedido"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaDeCreacinDe}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="descripcionOrdenServicio"/>
+                            <PropertyValue Property="Label" String="{@i18n>descripcinDeLaOrden}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="planta"/>
+                            <PropertyValue Property="Label" String="{@i18n>planta}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="unidadTren"/>
+                            <PropertyValue Property="Label" String="{@i18n>unidadTren}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaCierreTecnico"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaDeCierreTcnico}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="ordenesVenta"/>
+                            <PropertyValue Property="Label" String="{@i18n>rdenesDeVenta}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaReferenciaOrden"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaDeReferenciaDe}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaFinalizacionProg"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaDeFinalizacinDe}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaInicioProg"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaDeInicioDe}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaInicioReal"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaDeInicioReal}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="listadoTareas"/>
+                            <PropertyValue Property="Label" String="{@i18n>listadoDeTareas}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="codigoCliente"/>
+                            <PropertyValue Property="Label" String="{@i18n>cdigoDeCliente}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="envio"/>
+                            <PropertyValue Property="Label" String="{@i18n>envo}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="descripcionListaTareas"/>
+                            <PropertyValue Property="Label" String="{@i18n>descripcinDeLaLista}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaEntregaEstimada"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaDeEntregaEstimada}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="descripcionUnidadTren"/>
+                            <PropertyValue Property="Label" String="{@i18n>descripcinUnidadTren}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="productoServicio"/>
+                            <PropertyValue Property="Label" String="{@i18n>productoDeServicio}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="averiaCliente"/>
+                            <PropertyValue Property="Label" String="{@i18n>averaDelCliente}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="tipoOrden"/>
+                            <PropertyValue Property="Label" String="{@i18n>tipoDeOrden}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="contrato"/>
+                            <PropertyValue Property="Label" String="{@i18n>contrato}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="estadoFacturacion"/>
+                            <PropertyValue Property="Label" String="{@i18n>estadoFacturacin}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="equipo"/>
+                            <PropertyValue Property="Label" String="{@i18n>equipo}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="informeTecnicoInterno"/>
+                            <PropertyValue Property="Label" String="{@i18n>informeTcnicoInterno}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="informeTecnicoCliente"/>
+                            <PropertyValue Property="Label" String="{@i18n>informeTcnicoDelCliente}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="informeFluorado"/>
+                            <PropertyValue Property="Label" String="{@i18n>informeFluorado}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaGI"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaDeGi}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaInicioGarantia"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaInicioGranta}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaFinGarantia"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaFinGaranta}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="grupoPrecios"/>
+                            <PropertyValue Property="Label" String="{@i18n>grupoDePrecios}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="fechaFactura"/>
+                            <PropertyValue Property="Label" String="{@i18n>fechaFactura}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="costeMaterial"/>
+                            <PropertyValue Property="Label" String="{@i18n>costeDeMaterial}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="horasTrabajo"/>
+                            <PropertyValue Property="Label" String="{@i18n>horasDeTrabajo}"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="precioCatalogo"/>
+                            <PropertyValue Property="Label" String="{@i18n>precioDelCatlogo}"/>
+                        </Record>
+                    </Collection>
+                </Annotation>
+                <Annotation Term="UI.SelectionFields" >
+                    <Collection>
+                        <PropertyPath>OrdenReparacion</PropertyPath>
+                        <PropertyPath>claseActividad</PropertyPath>
+                        <PropertyPath>fechaUltimaModificacion</PropertyPath>
+                        <PropertyPath>material</PropertyPath>
+                        <PropertyPath>numeroSerie</PropertyPath>
+                        <PropertyPath>ubicacion</PropertyPath>
+                        <PropertyPath>estadoOrdenServicio</PropertyPath>
+                        <PropertyPath>planta</PropertyPath>
+                        <PropertyPath>unidadTren</PropertyPath>
+                        <PropertyPath>fechaCierreTecnico</PropertyPath>
+                        <PropertyPath>fechaReferenciaOrden</PropertyPath>
+                        <PropertyPath>fechaInicioReal</PropertyPath>
+                        <PropertyPath>codigoCliente</PropertyPath>
+                        <PropertyPath>tipoOrden</PropertyPath>
+                        <PropertyPath>fechaGI</PropertyPath>
+                    </Collection>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/OrdenReparacion">
+                <Annotation Term="Common.Label" String="{@i18n>ordenreparacion}"/>
+                <Annotation Term="Common.ValueList">
+                    <Record Type="Common.ValueListType">
+                        <PropertyValue Property="CollectionPath" String="ServiceDocumentVH"/>
+                        <PropertyValue Property="Parameters">
+                            <Collection>
+                                <Record Type="Common.ValueListParameterInOut">
+                                    <PropertyValue Property="LocalDataProperty" PropertyPath="OrdenReparacion"/>
+                                    <PropertyValue Property="ValueListProperty" String="ServiceDocument"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/claseActividad">
+                <Annotation Term="Common.Label" String="{@i18n>claseactividad}"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/referenceinhouserepair">
+                <Annotation Term="Common.Label" String="{@i18n>reparacinInterna}"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/referenceinhouserepairitem">
+                <Annotation Term="Common.Label" String="{@i18n>posicinReparacinInterna}"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/moneda">
+                <Annotation Term="UI.Hidden" Bool="true"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/monedaCosteMaterial">
+                <Annotation Term="UI.Hidden" Bool="true"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/fechaUltimaModificacion">
+                <Annotation Term="Common.Label" String="{@i18n>fechaDeLtimaModificacin}"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/material">
+                <Annotation Term="Common.Label" String="{@i18n>material}"/>
+                <Annotation Term="Common.ValueList">
+                    <Record Type="Common.ValueListType">
+                        <PropertyValue Property="CollectionPath" String="ProductVH"/>
+                        <PropertyValue Property="Parameters">
+                            <Collection>
+                                <Record Type="Common.ValueListParameterInOut">
+                                    <PropertyValue Property="LocalDataProperty" PropertyPath="material"/>
+                                    <PropertyValue Property="ValueListProperty" String="Product"/>
+                                </Record>
+                                <Record Type="Common.ValueListParameterDisplayOnly">
+                                    <PropertyValue Property="ValueListProperty" String="ProductDescription"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/numeroSerie">
+                <Annotation Term="Common.Label" String="{@i18n>nmeroDeSerie}"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/ubicacion">
+                <Annotation Term="Common.Label" String="{@i18n>ubicacin}"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/estadoOrdenServicio">
+                <Annotation Term="Common.Label" String="{@i18n>estadoDeLaOrden}"/>
+                <Annotation Term="Common.ValueList">
+                    <Record Type="Common.ValueListType">
+                        <PropertyValue Property="CollectionPath" String="ServiceDocumentStVH"/>
+                        <PropertyValue Property="Parameters">
+                            <Collection>
+                                <Record Type="Common.ValueListParameterInOut">
+                                    <PropertyValue Property="LocalDataProperty" PropertyPath="estadoOrdenServicio"/>
+                                    <PropertyValue Property="ValueListProperty" String="ServiceDocumentStatus"/>
+                                </Record>
+                                <Record Type="Common.ValueListParameterDisplayOnly">
+                                    <PropertyValue Property="ValueListProperty" String="ServiceDocumentStatusName"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/planta">
+                <Annotation Term="Common.Label" String="{@i18n>planta}"/>
+                <Annotation Term="Common.ValueList">
+                    <Record Type="Common.ValueListType">
+                        <PropertyValue Property="CollectionPath" String="PlantVH"/>
+                        <PropertyValue Property="Parameters">
+                            <Collection>
+                                <Record Type="Common.ValueListParameterInOut">
+                                    <PropertyValue Property="LocalDataProperty" PropertyPath="planta"/>
+                                    <PropertyValue Property="ValueListProperty" String="Plant"/>
+                                </Record>
+                                <Record Type="Common.ValueListParameterDisplayOnly">
+                                    <PropertyValue Property="ValueListProperty" String="PlantName"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/unidadTren">
+                <Annotation Term="Common.Label" String="{@i18n>unidadTren}"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/fechaCierreTecnico">
+                <Annotation Term="Common.Label" String="{@i18n>fechaDeCierreTcnico}"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/fechaReferenciaOrden">
+                <Annotation Term="Common.Label" String="{@i18n>fechaDeReferenciaDe}"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/fechaInicioReal">
+                <Annotation Term="Common.Label" String="{@i18n>fechaDeInicioReal}"/>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/codigoCliente">
+                <Annotation Term="Common.Label" String="{@i18n>cdigoDeCliente}"/>
+                <Annotation Term="Common.ValueList">
+                    <Record Type="Common.ValueListType">
+                        <PropertyValue Property="CollectionPath" String="CustomerVH"/>
+                        <PropertyValue Property="Parameters">
+                            <Collection>
+                                <Record Type="Common.ValueListParameterInOut">
+                                    <PropertyValue Property="LocalDataProperty" PropertyPath="codigoCliente"/>
+                                    <PropertyValue Property="ValueListProperty" String="Customer"/>
+                                </Record>
+                                <Record Type="Common.ValueListParameterDisplayOnly">
+                                    <PropertyValue Property="ValueListProperty" String="CustomerName"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/tipoOrden">
+                <Annotation Term="Common.Label" String="{@i18n>tipoDeOrden}"/>
+                <Annotation Term="Common.ValueList">
+                    <Record Type="Common.ValueListType">
+                        <PropertyValue Property="CollectionPath" String="ServiceDocTypeVH"/>
+                        <PropertyValue Property="Parameters">
+                            <Collection>
+                                <Record Type="Common.ValueListParameterInOut">
+                                    <PropertyValue Property="LocalDataProperty" PropertyPath="tipoOrden"/>
+                                    <PropertyValue Property="ValueListProperty" String="ServiceDocumentType"/>
+                                </Record>
+                                <Record Type="Common.ValueListParameterDisplayOnly">
+                                    <PropertyValue Property="ValueListProperty" String="ServiceDocumentTypeName"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/fechaGI">
+                <Annotation Term="Common.Label" String="{@i18n>fechaDeGi}"/>
+            </Annotations>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

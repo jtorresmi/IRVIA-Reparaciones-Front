@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "3.1"
+metadata:
+  name: com.irvia.zreparaciones
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          destination: ZOA_SAML_ASSERTION
+          url: https://my408048-api.s4hana.cloud.sap/
+        app:
+          name: ZREPARACIONES
+          package: ZCS_REPORTE_REPARACIONES
+          transport: ZOAK900381
+        exclude:
+          - /test/
