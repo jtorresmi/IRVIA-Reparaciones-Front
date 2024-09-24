@@ -19,6 +19,6 @@ builder:
         app:
           name: ZREPARACIONES
           package: ZCS_REPORTE_REPARACIONES
-          transport: ZOAK900381
+          transport: ZOAK900662
         exclude:
           - /test/

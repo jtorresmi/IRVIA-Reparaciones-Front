@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_AGGREGATION',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="Org.OData.Aggregation.V1" Alias="Aggregation" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_ANALYTICS',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_ANALYTICS',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="com.sap.vocabularies.Analytics.v1" Alias="Analytics" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CAPABILITIES',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CODELIST',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CODELIST',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="com.sap.vocabularies.CodeList.v1" Alias="SAP__CodeList" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common" />
         <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="SAP__common" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CORE',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_CORE',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="Org.OData.Core.V1" Alias="SAP__core" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_MEASURES',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_MEASURES',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="Org.OData.Measures.V1" Alias="Measures" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PDF',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_ODM',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+        <edmx:Include Namespace="com.sap.vocabularies.ODM.v1" Alias="SAP__ODM" />
+    </edmx:Reference>
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PDF',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="com.sap.vocabularies.PDF.v1" Alias="SAP__PDF" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_UI',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_UI',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI" />
     </edmx:Reference>
-    <edmx:Reference Uri="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_VALIDATION',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/iwfnd/catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_VALIDATION',Version='0001',SAP__Origin='')/$value" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
         <edmx:Include Namespace="Org.OData.Validation.V1" Alias="Validation" />
     </edmx:Reference>
     <edmx:DataServices m:DataServiceVersion="2.0">
@@ -44,7 +47,7 @@
                     <PropertyRef Name="OrdenReparacion" />
                 </Key>
                 <Property Name="OrdenReparacion" Type="Edm.String" Nullable="false" MaxLength="10" sap:sortable="false" />
-                <Property Name="referenciaCliente2" Type="Edm.String" MaxLength="20" sap:sortable="false" />
+                <Property Name="referenciaCliente2" Type="Edm.String" MaxLength="30" sap:sortable="false" />
                 <Property Name="claseActividad" Type="Edm.String" MaxLength="10" sap:sortable="false" />
                 <Property Name="pedidoCliente" Type="Edm.String" MaxLength="35" sap:sortable="false" />
                 <Property Name="fechaNotificacion" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:sortable="false" />
@@ -100,6 +103,14 @@
                 <Property Name="referenceinhouserepair" Type="Edm.String" MaxLength="10" sap:sortable="false" />
                 <Property Name="referenceinhouserepairitem" Type="Edm.String" MaxLength="6" sap:sortable="false" />
             </EntityType>
+            <EntityType Name="ServiceDocumentStVHType" sap:label="Custom Entity - Service Doc Status" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ServiceDocumentOrder" />
+                </Key>
+                <Property Name="ServiceDocumentOrder" Type="Edm.String" Nullable="false" MaxLength="1" />
+                <Property Name="ServiceDocumentStatus" Type="Edm.String" MaxLength="10" sap:display-format="UpperCase" sap:label="Valor inferior" sap:quickinfo="Valores para dominios, valor individual/límite inferior" />
+                <Property Name="ServiceDocumentStatusName" Type="Edm.String" MaxLength="60" sap:label="Descripción breve" sap:quickinfo="Texto breve para valores fijos" />
+            </EntityType>
             <EntityType Name="CustomerVHType" sap:label="Value Help - Customer VH" sap:content-version="1">
                 <Key>
                     <PropertyRef Name="Customer" />
@@ -121,13 +132,6 @@
                 <Property Name="Product" Type="Edm.String" Nullable="false" MaxLength="18" sap:display-format="UpperCase" sap:label="Producto" sap:quickinfo="Número de producto" />
                 <Property Name="ProductDescription" Type="Edm.String" MaxLength="40" sap:label="Descripción producto" sap:quickinfo="Descripción del producto" />
             </EntityType>
-            <EntityType Name="ServiceDocumentStVHType" sap:label="Value Help - Service Document Status VH" sap:content-version="1">
-                <Key>
-                    <PropertyRef Name="ServiceDocumentStatus" />
-                </Key>
-                <Property Name="ServiceDocumentStatus" Type="Edm.String" Nullable="false" MaxLength="10" sap:display-format="UpperCase" sap:label="Valor inferior" sap:quickinfo="Valores para dominios, valor individual/límite inferior" />
-                <Property Name="ServiceDocumentStatusName" Type="Edm.String" MaxLength="60" sap:label="Descripción breve" sap:quickinfo="Texto breve para valores fijos" />
-            </EntityType>
             <EntityType Name="ServiceDocTypeVHType" sap:label="Value Help - Service Document Type VH" sap:content-version="1">
                 <Key>
                     <PropertyRef Name="ServiceDocumentType" />
@@ -145,28 +149,28 @@
                 <Key>
                     <PropertyRef Name="CurrencyCode" />
                 </Key>
-                <Property Name="CurrencyCode" Type="Edm.String" Nullable="false" MaxLength="5" sap:label="Moneda" sap:semantics="currency-code" />
-                <Property Name="ISOCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Código ISO" />
-                <Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="15" sap:label="Texto breve" />
-                <Property Name="DecimalPlaces" Type="Edm.Byte" Nullable="false" sap:label="Decimales" />
+                <Property Name="CurrencyCode" Type="Edm.String" Nullable="false" MaxLength="5" sap:label="Currency" sap:semantics="currency-code" />
+                <Property Name="ISOCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="ISO Code" />
+                <Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="15" sap:label="Short Text" />
+                <Property Name="DecimalPlaces" Type="Edm.Byte" Nullable="false" sap:label="Decimals" />
             </EntityType>
             <EntityType Name="SAP__UnitOfMeasure" sap:content-version="1">
                 <Key>
                     <PropertyRef Name="UnitCode" />
                 </Key>
-                <Property Name="UnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Un.medida interna" sap:semantics="unit-of-measure" />
-                <Property Name="ISOCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Código ISO" />
-                <Property Name="ExternalCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Comercial" />
-                <Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Texto UM" />
-                <Property Name="DecimalPlaces" Type="Edm.Int16" sap:label="Decimales" />
+                <Property Name="UnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Internal UoM" sap:semantics="unit-of-measure" />
+                <Property Name="ISOCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="ISO Code" />
+                <Property Name="ExternalCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Commercial" />
+                <Property Name="Text" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Meas. Unit Text" />
+                <Property Name="DecimalPlaces" Type="Edm.Int16" sap:label="Decimal Places" />
             </EntityType>
             <EntityType Name="SAP__DocumentDescription" sap:content-version="1">
                 <Key>
                     <PropertyRef Name="Id" />
                 </Key>
-                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="ID único" />
+                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="UUID" />
                 <Property Name="CreatedBy" Type="Edm.String" Nullable="false" MaxLength="12" />
-                <Property Name="CreatedAt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:label="Cronomarcador" />
+                <Property Name="CreatedAt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:label="Time Stamp" />
                 <Property Name="FileName" Type="Edm.String" Nullable="false" MaxLength="256" />
                 <Property Name="Title" Type="Edm.String" Nullable="false" MaxLength="256" />
                 <NavigationProperty Name="Format" Relationship="cds_zsd_reporte_reparaciones.to_format" FromRole="FromRole_to_format" ToRole="ToRole_to_format" />
@@ -183,7 +187,7 @@
                     <PropertyRef Name="Id" />
                 </Key>
                 <Property Name="FitToPage" Type="cds_zsd_reporte_reparaciones.SAP__FitToPage" Nullable="false" />
-                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="ID único" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="UUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="FontSize" Type="Edm.Int32" Nullable="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="Orientation" Type="Edm.String" Nullable="false" MaxLength="10" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="PaperSize" Type="Edm.String" Nullable="false" MaxLength="10" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
@@ -196,9 +200,9 @@
                 <Key>
                     <PropertyRef Name="Id" />
                 </Key>
-                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="ID único" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="UUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="UsePDFAConformance" Type="Edm.Boolean" Nullable="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
-                <Property Name="DoEnableAccessibility" Type="Edm.Boolean" Nullable="false" sap:label="Indicador" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DoEnableAccessibility" Type="Edm.Boolean" Nullable="false" sap:label="Indicator" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
             </EntityType>
             <EntityType Name="SAP__TableColumns" sap:content-version="1">
                 <Key>
@@ -207,7 +211,7 @@
                     <PropertyRef Name="Header" />
                 </Key>
                 <Property Name="Format" Type="cds_zsd_reporte_reparaciones.SAP__TableColumnFormat" Nullable="false" />
-                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="ID único" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="UUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="Name" Type="Edm.String" Nullable="false" MaxLength="256" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="Header" Type="Edm.String" Nullable="false" MaxLength="256" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="HorizontalAlignment" Type="Edm.String" Nullable="false" MaxLength="10" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
@@ -219,7 +223,7 @@
                     <PropertyRef Name="Name" />
                 </Key>
                 <Property Name="Title" Type="Edm.String" Nullable="false" MaxLength="256" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
-                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="ID único" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="UUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="Name" Type="Edm.String" Nullable="false" MaxLength="256" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="Value" Type="Edm.String" Nullable="false" MaxLength="256" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
             </EntityType>
@@ -227,15 +231,15 @@
                 <Key>
                     <PropertyRef Name="Id" />
                 </Key>
-                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="ID único" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
-                <Property Name="DoSign" Type="Edm.Boolean" Nullable="false" sap:label="Indicador" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="UUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DoSign" Type="Edm.Boolean" Nullable="false" sap:label="Indicator" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="Reason" Type="Edm.String" Nullable="false" MaxLength="256" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
             </EntityType>
             <EntityType Name="SAP__Hierarchy" sap:content-version="1">
                 <Key>
                     <PropertyRef Name="Id" />
                 </Key>
-                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="ID único" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="UUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="DistanceFromRootElement" Type="Edm.String" Nullable="false" MaxLength="256" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
                 <Property Name="DrillStateElement" Type="Edm.String" Nullable="false" MaxLength="256" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
             </EntityType>
@@ -246,7 +250,7 @@
                 <Property Name="Right" Type="cds_zsd_reporte_reparaciones.SAP__HeaderFooterField" Nullable="false" />
                 <Property Name="Left" Type="cds_zsd_reporte_reparaciones.SAP__HeaderFooterField" Nullable="false" />
                 <Property Name="Center" Type="cds_zsd_reporte_reparaciones.SAP__HeaderFooterField" Nullable="false" />
-                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="ID único" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="UUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
             </EntityType>
             <EntityType Name="SAP__PDFFooter" sap:content-version="1">
                 <Key>
@@ -255,7 +259,7 @@
                 <Property Name="Right" Type="cds_zsd_reporte_reparaciones.SAP__HeaderFooterField" Nullable="false" />
                 <Property Name="Left" Type="cds_zsd_reporte_reparaciones.SAP__HeaderFooterField" Nullable="false" />
                 <Property Name="Center" Type="cds_zsd_reporte_reparaciones.SAP__HeaderFooterField" Nullable="false" />
-                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="ID único" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Id" Type="Edm.Guid" Nullable="false" sap:label="UUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
             </EntityType>
             <EntityType Name="SAP__ValueHelp" sap:content-version="1">
                 <Key>
@@ -375,6 +379,13 @@
                 </ReferentialConstraint>
             </Association>
             <EntityContainer Name="cds_zsd_reporte_reparaciones_Entities" m:IsDefaultEntityContainer="true" sap:message-scope-supported="true" sap:supported-formats="atom json xlsx pdf">
+                <EntitySet Name="ReporteReparaciones" EntityType="cds_zsd_reporte_reparaciones.ReporteReparacionesType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
+                <EntitySet Name="ServiceDocumentStVH" EntityType="cds_zsd_reporte_reparaciones.ServiceDocumentStVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
+                <EntitySet Name="CustomerVH" EntityType="cds_zsd_reporte_reparaciones.CustomerVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
+                <EntitySet Name="PlantVH" EntityType="cds_zsd_reporte_reparaciones.PlantVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
+                <EntitySet Name="ProductVH" EntityType="cds_zsd_reporte_reparaciones.ProductVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
+                <EntitySet Name="ServiceDocTypeVH" EntityType="cds_zsd_reporte_reparaciones.ServiceDocTypeVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
+                <EntitySet Name="ServiceDocumentVH" EntityType="cds_zsd_reporte_reparaciones.ServiceDocumentVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
                 <EntitySet Name="SAP__FormatSet" EntityType="cds_zsd_reporte_reparaciones.SAP__Format" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
                 <EntitySet Name="SAP__PDFStandardSet" EntityType="cds_zsd_reporte_reparaciones.SAP__PDFStandard" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
                 <EntitySet Name="SAP__TableColumnsSet" EntityType="cds_zsd_reporte_reparaciones.SAP__TableColumns" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
@@ -384,23 +395,24 @@
                 <EntitySet Name="SAP__PDFHeaderSet" EntityType="cds_zsd_reporte_reparaciones.SAP__PDFHeader" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
                 <EntitySet Name="SAP__PDFFooterSet" EntityType="cds_zsd_reporte_reparaciones.SAP__PDFFooter" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
                 <EntitySet Name="SAP__ValueHelpSet" EntityType="cds_zsd_reporte_reparaciones.SAP__ValueHelp" sap:content-version="1" />
-                <EntitySet Name="ReporteReparaciones" EntityType="cds_zsd_reporte_reparaciones.ReporteReparacionesType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
-                <EntitySet Name="CustomerVH" EntityType="cds_zsd_reporte_reparaciones.CustomerVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
-                <EntitySet Name="PlantVH" EntityType="cds_zsd_reporte_reparaciones.PlantVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
-                <EntitySet Name="ProductVH" EntityType="cds_zsd_reporte_reparaciones.ProductVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
-                <EntitySet Name="ServiceDocumentStVH" EntityType="cds_zsd_reporte_reparaciones.ServiceDocumentStVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
-                <EntitySet Name="ServiceDocTypeVH" EntityType="cds_zsd_reporte_reparaciones.ServiceDocTypeVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
-                <EntitySet Name="ServiceDocumentVH" EntityType="cds_zsd_reporte_reparaciones.ServiceDocumentVHType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1" />
                 <EntitySet Name="SAP__Currencies" EntityType="cds_zsd_reporte_reparaciones.SAP__Currency" sap:content-version="1" />
                 <EntitySet Name="SAP__UnitsOfMeasure" EntityType="cds_zsd_reporte_reparaciones.SAP__UnitOfMeasure" sap:content-version="1" />
                 <EntitySet Name="SAP__MyDocumentDescriptions" EntityType="cds_zsd_reporte_reparaciones.SAP__DocumentDescription" sap:content-version="1" />
-                <AssociationSet Name="to_FooterSet" Association="cds_zsd_reporte_reparaciones.to_Footer" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-                    <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_Footer" />
-                    <End EntitySet="SAP__PDFFooterSet" Role="ToRole_to_Footer" />
+                <AssociationSet Name="to_HierarchySet" Association="cds_zsd_reporte_reparaciones.to_Hierarchy" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_Hierarchy" />
+                    <End EntitySet="SAP__HierarchySet" Role="ToRole_to_Hierarchy" />
+                </AssociationSet>
+                <AssociationSet Name="to_tablecolumnsSet" Association="cds_zsd_reporte_reparaciones.to_tablecolumns" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_tablecolumns" />
+                    <End EntitySet="SAP__TableColumnsSet" Role="ToRole_to_tablecolumns" />
                 </AssociationSet>
                 <AssociationSet Name="to_headerSet" Association="cds_zsd_reporte_reparaciones.to_header" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_header" />
                     <End EntitySet="SAP__PDFHeaderSet" Role="ToRole_to_header" />
+                </AssociationSet>
+                <AssociationSet Name="to_FooterSet" Association="cds_zsd_reporte_reparaciones.to_Footer" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_Footer" />
+                    <End EntitySet="SAP__PDFFooterSet" Role="ToRole_to_Footer" />
                 </AssociationSet>
                 <AssociationSet Name="to_formatSet" Association="cds_zsd_reporte_reparaciones.to_format" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_format" />
@@ -410,10 +422,6 @@
                     <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_pdfstandard" />
                     <End EntitySet="SAP__PDFStandardSet" Role="ToRole_to_pdfstandard" />
                 </AssociationSet>
-                <AssociationSet Name="to_tablecolumnsSet" Association="cds_zsd_reporte_reparaciones.to_tablecolumns" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-                    <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_tablecolumns" />
-                    <End EntitySet="SAP__TableColumnsSet" Role="ToRole_to_tablecolumns" />
-                </AssociationSet>
                 <AssociationSet Name="to_signatureSet" Association="cds_zsd_reporte_reparaciones.to_signature" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_signature" />
                     <End EntitySet="SAP__SignatureSet" Role="ToRole_to_signature" />
@@ -421,10 +429,6 @@
                 <AssociationSet Name="to_coverpageSet" Association="cds_zsd_reporte_reparaciones.to_coverpage" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
                     <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_coverpage" />
                     <End EntitySet="SAP__CoverPageSet" Role="ToRole_to_coverpage" />
-                </AssociationSet>
-                <AssociationSet Name="to_HierarchySet" Association="cds_zsd_reporte_reparaciones.to_Hierarchy" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-                    <End EntitySet="SAP__MyDocumentDescriptions" Role="FromRole_to_Hierarchy" />
-                    <End EntitySet="SAP__HierarchySet" Role="ToRole_to_Hierarchy" />
                 </AssociationSet>
             </EntityContainer>
             <Annotation Term="Core.SchemaVersion" String="1.0.0" xmlns="http://docs.oasis-open.org/odata/ns/edm" />
@@ -856,8 +860,8 @@
                 </Annotation>
                 <Annotation Term="SAP__common.ValueListWithFixedValues" />
             </Annotations>
-            <atom:link rel="self" href="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/sap/ZSB_REPORTE_REPARACIONES/$metadata" xmlns:atom="http://www.w3.org/2005/Atom" />
-            <atom:link rel="latest-version" href="https://my408036.s4hana.cloud.sap:443/sap/opu/odata/sap/ZSB_REPORTE_REPARACIONES/$metadata" xmlns:atom="http://www.w3.org/2005/Atom" />
+            <atom:link rel="self" href="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/sap/ZSB_REPORTE_REPARACIONES/$metadata" xmlns:atom="http://www.w3.org/2005/Atom" />
+            <atom:link rel="latest-version" href="https://my408048.s4hana.cloud.sap:443/sap/opu/odata/sap/ZSB_REPORTE_REPARACIONES/$metadata" xmlns:atom="http://www.w3.org/2005/Atom" />
         </Schema>
     </edmx:DataServices>
 </edmx:Edmx>

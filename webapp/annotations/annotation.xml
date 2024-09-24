@@ -434,6 +434,9 @@
             <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/ubicacion">
                 <Annotation Term="Common.Label" String="{@i18n>ubicacin}"/>
             </Annotations>
+            <Annotations Target="cds_zsd_reporte_reparaciones.ServiceDocumentStVHType">
+                <Annotation Term="Common.Label" String="{@i18n>orden}" />
+            </Annotations>
             <Annotations Target="cds_zsd_reporte_reparaciones.ReporteReparacionesType/estadoOrdenServicio">
                 <Annotation Term="Common.Label" String="{@i18n>estadoDeLaOrden}"/>
                 <Annotation Term="Common.ValueList">
